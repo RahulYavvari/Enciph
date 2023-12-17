@@ -20,7 +20,6 @@ app.get("/", (req, res) => {
 
 app.post("/", (req, res) => {
     let secretkey = req.body.secretkey;
-    console.log(secretkey);
 
     let data = `# Hello, Markdown! \n\n This is a **simple** example.`;
 
