@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enciph</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Enciph</h1>
+        <h2 class="sub-heading">Just for fun encryption!</h2>
+
+
+        <% if (isAuth==false) { %>
+
+            <form class="input-div" action="/" method="POST">
+                <input class="user-input" name="secretkey" type="password" placeholder="Secret Key">
+                <button class="submit-btn" type="submit">🔑</button>
+            </form>
+
+            <% } else {%>
+                <div id="markdown-content"></div>
+            <% } %>
+
+    </div>
+
+    <footer>Made by Rahul Yavvari &copy; <span id="current-year"></span></footer>
+
+    <script>
+        window.unmarked_data = `<%-data%>`;
+    </script>
+
+    <script src="./js/middleware/marker.js"></script>
+    <script src="./js/middleware/year.js"></script>
+</body>
+
+</html>
