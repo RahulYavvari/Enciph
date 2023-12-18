@@ -134,7 +134,7 @@ Must: HTML, CSS **JavaScript**
 Okay: ReactJS
 (Note: With React Native you can build Mobile Apps, it's similar to ReactJS)
 
-Okay, `JavaScript` is a God-Tier language, without which todays interweb would cease to exist. So it is a must.
+Okay, **JavaScript** is a God-Tier language, without which todays interweb would cease to exist. So it is a must.
 
 **Backend**
 This is extremely important, it's like the embryo of the System Design.
