@@ -49,6 +49,10 @@ footer {
     outline: none;
 }
 
+.markdown-content {
+    padding: 1rem 0.2rem;
+}
+
 .submit-btn {
     font-size: 2rem;
     border-radius: 100%;
